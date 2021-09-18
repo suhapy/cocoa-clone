@@ -10,7 +10,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/icon-row.css";
-@import "components/alt-screenheader.css";
+@import "components/alt-screen-header.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
