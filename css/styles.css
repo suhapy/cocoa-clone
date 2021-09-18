@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Material+Icons+Round");
 @import "reset.css";
 @import "variables.css";
-@import "materialIcons.css";
+@import "material-icons.css";
 
 /*components*/
-@import "components/statusBar.css";
+@import "components/status-bar.css";
 @import "components/badge.css";
-@import "components/navBar.css";
-@import "components/screenHeader.css";
-@import "components/userComponent.css";
-@import "components/iconRow.css";
-@import "components/altScreenHeader.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/alt-screenheader.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
