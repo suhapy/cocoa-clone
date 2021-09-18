@@ -5,6 +5,7 @@
   background-color: var(--sub-color);
   padding: var(--padding-medium) 0;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 2;
 }
 .nav__list {
   display: flex;
