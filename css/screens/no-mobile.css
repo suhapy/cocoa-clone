@@ -11,7 +11,7 @@
   background-color: var(--sub-color);
 }
 #noMobile img {
-  width: 20%;
+  width: 100px;
 }
 #noMobile span {
   font-weight: 700;
