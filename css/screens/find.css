@@ -61,4 +61,5 @@
   position: absolute;
   bottom: 6px;
   right: 3px;
+  z-index: 1;
 }
