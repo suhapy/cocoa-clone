@@ -1,0 +1,26 @@
+.screenHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px var(--space-side) calc(var(--space-medium) * 2)
+    var(--space-side);
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.screenHeader__title {
+  font-size: var(--font-size-large);
+  font-weight: 600;
+}
+.screenHeader__icons > span {
+  position: relative;
+  margin-left: calc(var(--space-medium) * 2);
+}
+.screenHeader__notification {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}

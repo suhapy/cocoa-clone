@@ -1,0 +1,35 @@
+.moreScreen .iconRow {
+  margin-top: calc(var(--space-medium) * 2);
+}
+.suggestion__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestion__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  transition: all 0.3s ease-in-out;
+}
+.suggestion__icon:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.suggestion__icon__img {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+}
+.suggestion__icon__img span {
+  color: white;
+}
+.suggestion__icon__text {
+  font-size: var(--font-size-small);
+  margin-top: var(--space-medium);
+  color: var(--line-color);
+}

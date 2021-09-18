@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--sub-color);
+  padding: var(--padding-medium) 0;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__link {
+  color: #232a47;
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__notification--sm {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Bears Talk</title>
+  </head>
+  <body>
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <span class="material-icons-round md-18"> wifi </span>
+      </div>
+      <div class="statusBar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusBar__column">
+        <span>120%</span>
+        <span class="material-icons-round md-18"> battery_full </span>
+        <span class="material-icons-round md-18"> bolt </span>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><span class="material-icons-round"> person </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">4</span>
+            <span class="material-icons-round"> chat_bubble_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><span class="material-icons-round"> search </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge--sm nav__notification--sm"></span>
+            <span class="material-icons-round"> more_horiz </span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="screenHeader">
+      <h1 class="screenHeader__title">Friends</h1>
+      <div class="screenHeader__icons">
+        <span class="material-icons-round"> search </span>
+        <span class="material-icons-round"> music_note </span>
+        <span class="material-icons-round"> settings </span>
+      </div>
+    </header>
+    <main class="mainScreen friendsScreen">
+      <div class="userComponent userComponent--card">
+        <div class="userComponent__column">
+          <img
+            src="img/profileIcebear.png"
+            alt="WebareBears"
+            class="userComponent__avatar"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__name--bold">Ice bear</h4>
+            <span class="userComponent__subtitle"
+              >Ice bear needs ice cream.</span
+            >
+          </div>
+        </div>
+        <div class="userComponent__column">
+          <span class="material-icons-round"> chat </span>
+        </div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channelHeader">
+          <span>Event</span
+          ><span class="material-icons-round"> expand_less </span>
+        </div>
+        <div class="userComponent userComponent--small">
+          <div class="userComponent__column">
+            <img
+              src="img/profileBirthday.png"
+              alt="WebareBears"
+              class="userComponent__avatar userComponent__avatar--sm"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__name">Birthday!</h4>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <div>
+              <span class="userComponent__number">2</span>
+              <span class="material-icons-round"> navigate_next </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channelHeader">
+          <span>Channel</span
+          ><span class="material-icons-round"> expand_less </span>
+        </div>
+        <div class="userComponent userComponent--small">
+          <div class="userComponent__column">
+            <img
+              src="img/profileGrizz.png"
+              alt="WebareBears"
+              class="userComponent__avatar userComponent__avatar--sm"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__name">Grizz</h4>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <span class="material-icons-round"> navigate_next </span>
+          </div>
+        </div>
+        <div class="userComponent userComponent--small">
+          <div class="userComponent__column">
+            <img
+              src="img/profilePanda.png"
+              alt="WebareBears"
+              class="userComponent__avatar userComponent__avatar--sm"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__name">Panda</h4>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <span class="material-icons-round"> navigate_next </span>
+          </div>
+        </div>
+        <div class="userComponent userComponent--small">
+          <div class="userComponent__column">
+            <img
+              src="img/profileChloe.png"
+              alt="WebareBears"
+              class="userComponent__avatar userComponent__avatar--sm"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__name">Chloe</h4>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <span class="material-icons-round"> navigate_next </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="splash">
+      <img src="img/profileIcebear.png" alt="" />
+    </div>
+    <div id="noMobile">
+      <img src="img/smallPage.webp" alt="" />
+      <span>Ice bear wants small screen...</span>
+    </div>
+  </body>
+</html>

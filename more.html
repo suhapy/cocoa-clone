@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Bears Talk</title>
+  </head>
+  <body>
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <span class="material-icons-round md-18"> wifi </span>
+      </div>
+      <div class="statusBar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusBar__column">
+        <span>120%</span>
+        <span class="material-icons-round md-18"> battery_full </span>
+        <span class="material-icons-round md-18"> bolt </span>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><span class="material-icons-round"> person_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">4</span>
+            <span class="material-icons-round"> chat_bubble_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><span class="material-icons-round"> search </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge--sm nav__notification--sm"></span>
+            <span class="material-icons-round"> more_horiz </span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="screenHeader">
+      <h1 class="screenHeader__title">More</h1>
+      <div class="screenHeader__icons">
+        <span class="material-icons-round"> search </span>
+        <span class="material-icons-round"> music_note </span>
+        <span>
+          <a href="settings.html">
+            <span class="material-icons-round"> settings </span>
+          </a>
+          <span class="badge--sm screenHeader__notification"></span
+        ></span>
+      </div>
+    </header>
+    <main class="mainScreen moreScreen">
+      <div class="userComponent userComponent--card">
+        <div class="userComponent__column">
+          <img
+            src="img/profileIcebear.png"
+            alt="WebareBears"
+            class="userComponent__avatar"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__name--bold">Ice bear</h4>
+            <span class="userComponent__subtitle">+8210-1234-5678</span>
+          </div>
+        </div>
+        <div class="userComponent__column">
+          <span class="material-icons-round"> chat </span>
+        </div>
+      </div>
+      <div class="iconRow">
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> calendar_today </span
+          ><span>Calendar</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> add_box </span
+          ><span>Talk Drive</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> emoji_emotions </span
+          ><span>Emoticons </span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> palette </span><span>Themes</span>
+        </div>
+      </div>
+      <div class="iconRow">
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> account_circle </span
+          ><span>Account</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> question_answer </span
+          ><span>Openchat</span>
+        </div>
+        <div class="iconRow__icon"></div>
+        <div class="iconRow__icon"></div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channelHeader">
+          <span>Suggestions</span>
+        </div>
+      </div>
+      <div class="suggestion__icons">
+        <div class="suggestion__icon">
+          <div class="suggestion__icon__img">
+            <span class="material-icons-round md-36"> format_quote </span>
+          </div>
+          <span class="suggestion__icon__text">Bears' Story</span>
+        </div>
+        <div class="suggestion__icon">
+          <div class="suggestion__icon__img">
+            <span class="material-icons-round md-36"> people </span>
+          </div>
+          <span class="suggestion__icon__text">Bears' Friend</span>
+        </div>
+        <div class="suggestion__icon">
+          <div class="suggestion__icon__img">
+            <span class="material-icons-round md-36"> sports_esports </span>
+          </div>
+          <span class="suggestion__icon__text">Bears' Game</span>
+        </div>
+        <div class="suggestion__icon"></div>
+      </div>
+    </main>
+    <div id="noMobile">
+      <img src="img/smallPage.webp" alt="" />
+      <span>Ice bear wants small screen...</span>
+    </div>
+  </body>
+</html>

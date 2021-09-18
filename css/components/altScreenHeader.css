@@ -1,0 +1,34 @@
+.altHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px var(--space-side) calc(var(--space-medium) * 2)
+    var(--space-side);
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+.altHeaderColumn {
+  width: 33%;
+}
+.altHeaderColumn:nth-child(2) {
+  font-size: var(--font-size-large);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.altHeaderColumn:first-child {
+  display: flex;
+  align-items: center;
+}
+.altHeaderColumn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.altHeaderColumn:last-child span {
+  margin-left: var(--space-medium);
+}

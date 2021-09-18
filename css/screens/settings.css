@@ -1,0 +1,28 @@
+.settingsList {
+  display: flex;
+  flex-direction: column;
+}
+.settings__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--space-medium) * 1.5) 0;
+  transition: all 0.3s ease-in-out;
+}
+.settings__setting:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.setting__name {
+  padding-left: var(--space-medium);
+}
+.settings__setting:first-child {
+  padding-top: calc(var(--space-medium) * 2);
+}
+.settings__setting:last-child {
+  padding-bottom: calc(var(--space-medium) * 2);
+  border-bottom: 0.5px solid var(--sub-color);
+}
+.settings__setting__version {
+  color: var(--line-color);
+}

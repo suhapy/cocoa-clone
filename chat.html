@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w Chloe - Bears Talk</title>
+  </head>
+  <body id="chatScreen">
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <span class="material-icons-round md-18"> wifi </span>
+      </div>
+      <div class="statusBar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusBar__column">
+        <span>120%</span>
+        <span class="material-icons-round md-18"> battery_full </span>
+        <span class="material-icons-round md-18"> bolt </span>
+      </div>
+    </div>
+    <header class="altHeader">
+      <div class="altHeaderColumn">
+        <a href="chats.html"
+          ><span class="material-icons-round"> chevron_left </span></a
+        >
+      </div>
+      <div class="altHeaderColumn">
+        <h1 class="altHeader__title">Chloe</h1>
+      </div>
+      <div class="altHeaderColumn">
+        <span class="material-icons-round"> search </span>
+        <span class="material-icons-round"> menu </span>
+      </div>
+    </header>
+    <main class="mainScreen mainChat">
+      <div class="chat__timestamps">Saturday, September 18, 2021</div>
+      <div class="messageRow messageRow--own">
+        <div class="massageRow__content">
+          <div class="message__info">
+            <span class="message__bubble">did you see this clip?</span>
+            <span class="message__time">05:45</span>
+          </div>
+        </div>
+      </div>
+      <div class="messageRow messageRow--own">
+        <div class="massageRow__content">
+          <div class="message__info">
+            <span class="message__bubble">I think you really like it!</span>
+            <span class="message__time">05:46</span>
+          </div>
+        </div>
+      </div>
+      <div class="messageRow messageRow--others">
+        <img src="img/profileChloe.png" alt="" />
+        <div class="massageRow__content">
+          <div class="message__author">Chloe</div>
+          <div class="message__info">
+            <span class="message__bubble">lol</span>
+            <span class="message__time">06:48</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="reply">
+      <div class="reply__column">
+        <span class="material-icons-round md-dark md-inactive"> add_box </span>
+      </div>
+      <div class="reply__column">
+        <input
+          type="text"
+          name=""
+          id=""
+          class="reply__text"
+          placeholder="Write a message..."
+        />
+        <div class="reply__btn">
+          <span
+            class="material-icons-round md-dark md-inactive reply__btn__emoji"
+          >
+            emoji_emotions
+          </span>
+          <button class="reply__btn__send">
+            <span class="material-icons-round"> send </span>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div id="noMobile">
+      <img src="img/smallPage.webp" alt="" />
+      <span>Ice bear wants small screen...</span>
+    </div>
+  </body>
+</html>

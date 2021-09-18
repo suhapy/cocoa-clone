@@ -1,0 +1,64 @@
+.findScreen__channel__text {
+  text-align: center;
+  font-size: var(--font-size-medium);
+  padding: calc(var(--space-medium) * 4) 0;
+  color: var(--line-color);
+}
+.openChatPost {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: calc(var(--space-medium) * 2);
+  transition: all 0.3s ease-in-out;
+}
+.openChatPost:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.openChatPost__column:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.openChatPost__title {
+  margin-bottom: var(--space-medium);
+}
+.openChatPost__hash {
+  font-size: var(--font-size-small);
+  color: var(--line-color);
+  margin-bottom: calc(var(--space-medium) / 2);
+}
+.openChatPost__info {
+  font-size: var(--font-size-small);
+}
+.openChatPost__info__members {
+  color: var(--line-color);
+}
+.openChatPost__info__active {
+  color: tomato;
+  padding-left: calc(var(--space-medium) / 2);
+  border-left: 0.5px solid var(--line-color);
+}
+.openChatPost__img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.openChatPost__column:last-child {
+  position: relative;
+}
+.openChatPost__column:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 45px;
+  padding: calc(var(--space-medium) / 2);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 10px;
+  font-size: var(--font-size-small);
+  position: absolute;
+  bottom: 6px;
+  right: 3px;
+}

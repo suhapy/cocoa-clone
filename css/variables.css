@@ -1,0 +1,11 @@
+:root {
+  --main-color: #87a0ff;
+  --sub-color: #f7f7f7;
+  --line-color: #acacac;
+  --font-size-large: 18px;
+  --font-size-medium: 16px;
+  --font-size-small: 12px;
+  --space-medium: 12px;
+  --space-side: 27px;
+  --padding-medium: 15px;
+}

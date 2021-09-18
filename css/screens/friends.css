@@ -1,0 +1,56 @@
+.friendsScreen__channelHeader {
+  border-top: 0.5px solid var(--line-color);
+  color: var(--line-color);
+  font-size: var(--font-size-small);
+  padding: var(--padding-medium) 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-medium);
+}
+.friendsScreen__channelHeader__side {
+  display: flex;
+  align-items: center;
+}
+
+/* splash */
+@keyframes splashScreenAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes splashScreenCircle {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.splash {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  animation: splashScreenAnimation 0.3s ease-in-out 2s forwards;
+}
+.splash img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  animation: splashScreenCircle 0.6s ease-in-out 1s;
+}

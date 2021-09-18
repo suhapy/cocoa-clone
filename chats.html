@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Bears Talk</title>
+  </head>
+  <body>
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <span class="material-icons-round md-18"> wifi </span>
+      </div>
+      <div class="statusBar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusBar__column">
+        <span>120%</span>
+        <span class="material-icons-round md-18"> battery_full </span>
+        <span class="material-icons-round md-18"> bolt </span>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><span class="material-icons-round"> person_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">4</span>
+            <span class="material-icons-round"> chat_bubble </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><span class="material-icons-round"> search </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge--sm nav__notification--sm"></span>
+            <span class="material-icons-round"> more_horiz </span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="screenHeader">
+      <h1 class="screenHeader__title">Chats</h1>
+      <div class="screenHeader__icons">
+        <span class="material-icons-round"> search </span>
+        <span class="material-icons-round"> question_answer </span>
+        <span class="material-icons-round"> music_note </span>
+        <span class="material-icons-round"> settings </span>
+      </div>
+    </header>
+    <main class="mainScreen">
+      <div class="userComponent">
+        <div class="userComponent__column">
+          <img
+            src="img/profileGrizz.png"
+            alt="WebareBears"
+            class="userComponent__avatar userComponent__avatar--sm"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__name">Grizz</h4>
+            <span class="userComponent__subtitle">I cant wait for it!</span>
+          </div>
+        </div>
+        <div class="userComponent__column">
+          <span class="userComponent__time">14:23</span>
+          <span class="badge">2</span>
+        </div>
+      </div>
+      <div class="userComponent">
+        <div class="userComponent__column">
+          <img
+            src="img/profileNomnom.png"
+            alt="WebareBears"
+            class="userComponent__avatar userComponent__avatar--sm"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__name">Nom nom</h4>
+            <span class="userComponent__subtitle">did you know that?</span>
+          </div>
+        </div>
+        <div class="userComponent__column">
+          <span class="userComponent__time">13:03</span>
+          <span class="badge">1</span>
+        </div>
+      </div>
+      <a href="chat.html">
+        <div class="userComponent">
+          <div class="userComponent__column">
+            <img
+              src="img/profileChloe.png"
+              alt="WebareBears"
+              class="userComponent__avatar userComponent__avatar--sm"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__name">Chloe</h4>
+              <span class="userComponent__subtitle">lol</span>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <span class="userComponent__time">06:48</span>
+          </div>
+        </div>
+      </a>
+      <div class="userComponent">
+        <div class="userComponent__column">
+          <img
+            src="img/profilePanda.png"
+            alt="WebareBears"
+            class="userComponent__avatar userComponent__avatar--sm"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__name">Panda</h4>
+            <span class="userComponent__subtitle">okay...</span>
+          </div>
+        </div>
+        <div class="userComponent__column">
+          <span class="userComponent__time">22:30</span>
+          <span class="badge">1</span>
+        </div>
+      </div>
+    </main>
+    <div id="noMobile">
+      <img src="img/smallPage.webp" alt="" />
+      <span>Ice bear wants small screen...</span>
+    </div>
+  </body>
+</html>

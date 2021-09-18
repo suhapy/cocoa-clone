@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Bears Talk</title>
+  </head>
+  <body>
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <span class="material-icons-round md-18"> wifi </span>
+      </div>
+      <div class="statusBar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusBar__column">
+        <span>120%</span>
+        <span class="material-icons-round md-18"> battery_full </span>
+        <span class="material-icons-round md-18"> bolt </span>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><span class="material-icons-round"> person_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">4</span>
+            <span class="material-icons-round"> chat_bubble_outline </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><span class="material-icons-round"> search </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge--sm nav__notification--sm"></span>
+            <span class="material-icons-round"> more_horiz </span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="screenHeader">
+      <h1 class="screenHeader__title">Find</h1>
+      <div class="screenHeader__icons">
+        <span class="material-icons-round"> search </span>
+        <span
+          ><span class="material-icons-round"> settings </span>
+          <span class="badge--sm screenHeader__notification"></span
+        ></span>
+      </div>
+    </header>
+    <main class="mainScreen">
+      <div class="iconRow">
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> qr_code_scanner </span>
+          <span>Qr Code</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> contacts </span>
+          <span>Add by</span>
+          <span>Contacts</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> person_add </span>
+          <span>Add by ID</span>
+        </div>
+        <div class="iconRow__icon">
+          <span class="material-icons-round"> email </span>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channelHeader">
+          <span>Recomended Friends</span
+          ><span
+            >
+        </div>
+        <div class="findScreen__channel__text">You have no recomended friends.</div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channelHeader">
+          <span>Openchat</span
+          ><span
+            ><span class="friendsScreen__channelHeader__side"
+              ><span>Go to Openchat Home</span
+              ><span class="material-icons-round"> navigate_next </span></span
+            ></span
+          >
+        </div>
+        <div class="openChatPost">
+          <div class="openChatPost__column">
+            <span class="openChatPost__title">We bare bears</span>
+            <span class="openChatPost__hash">#cute #fun #bears #friends</span>
+            <div class="openChatPost__info">
+              <span class="openChatPost__info__members">123 members</span>
+              <span class="openChatPost__info__active">Active</span>
+            </div>
+          </div>
+          <div class="openChatPost__column">
+            <img class="openChatPost__img" src="img/searchChatcard_1.png" alt="We bare bears">
+            <div>
+              <span class="material-icons-round md-18">
+                favorite
+                </span>
+              <span>365</span>
+            </div>
+          </div>
+        </div>
+        <div class="openChatPost">
+          <div class="openChatPost__column">
+            <span class="openChatPost__title">Sharing Photo</span>
+            <span class="openChatPost__hash">#happy #like #bears #friends</span>
+            <div class="openChatPost__info">
+              <span class="openChatPost__info__members">134 members</span>
+              <span class="openChatPost__info__active">Active</span>
+            </div>
+          </div>
+          <div class="openChatPost__column">
+            <img class="openChatPost__img" src="img/searchChatcard_2.png" alt="We bare bears">
+            <div>
+              <span class="material-icons-round md-18">
+                favorite
+                </span>
+              <span>776</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <div id="noMobile">
+      <img src="img/smallPage.webp" alt="" />
+      <span>Ice bear wants small screen...</span>
+    </div>
+  </body>
+</html>
